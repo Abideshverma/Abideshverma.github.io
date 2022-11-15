@@ -71,6 +71,6 @@ $(document).ready(function () {
     },
   });
 });
-function MyResume(){
-return window.open('https://drive.google.com/file/d/1xJRspv0QURaKLV9rbpv8nmb3IZe5MsRV/view','_blank');
+function Resume(){
+  return window.open("https://github.com/Abideshverma/Abideshverma.github.io/raw/main/Abidesh%20Kumar%20(1).pdf");
 }
