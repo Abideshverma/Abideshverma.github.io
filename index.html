@@ -210,7 +210,17 @@
         </div>
              
     </section>
-
+    
+    <link  rel="stylesheet"  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+<!-- Prepare a container for your calendar. --><div class="calendar">    <script        src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">    </script></div>
+<script>    GitHubCalendar(".calendar", "Abideshverma");
+    // or enable responsive functionality:    GitHubCalendar(".calendar", "Abideshverma", { responsive: true });
+    // Use a proxy    GitHubCalendar(".calendar", "Abideshverma", {       proxy (username) {         return fetch(`https://your-proxy.com/github?user=${Abideshverma}`)       }    }).then(r => r.text())</script>
+    
+<div>
+  <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=Abideshverma&theme=radical" alt="Abidesh" height="250px" width="47%" />
+  <img align="right" src="https://github-readme-stats.vercel.app/api?username=Abideshverma&show_icons=true&theme=radical" height="255px" width="47%"/>
+<div>
     <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">
@@ -241,7 +251,7 @@
                                 <div class="sub-title"> <a href="https://github.com/Abideshverma" target="_blank" >GitHub</a> </div>
                             </div>
                         </div>
-
+        
                         
 
                     </div>
